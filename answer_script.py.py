@@ -130,7 +130,7 @@ def perform_readability_analysis(text, custom_stopwords):
         "Average Word Length": avg_word_length
     }
 
-input_data = pd.read_excel("C:\\Users\\Anjan\\Downloads\\Output Data Structure.xlsx")
+input_data = pd.read_excel("Output Data Structure.xlsx")
 i = 1
 # Iterate through the rows in the input data
 for index, row in input_data.iterrows():
